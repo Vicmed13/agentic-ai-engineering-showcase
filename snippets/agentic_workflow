@@ -1,0 +1,42 @@
+# Der Agentic Engineering Lifecycle: UR Artist (AR Makeup Studio)
+> Wie deterministische Planung, modulare Kontext-Isolierung und automatisierte Review-Agenten eine robuste Softwareentwicklung garantieren.
+
+---
+
+### 1. Spezifikation & Architekturdefinition (Pre-AI Phase)
+Der kritischste Schritt im gesamten Entwicklungsprozess: Bevor eine einzige Zeile Code durch KI generiert wurde, erfolgte die vollständige System- und Architekturspezifikation.
+* **Requirements Engineering:** Detaillierte Definition von Feature-Scope, User Flows und Edge Cases.
+* **Stack & Performance-Evaluation:** Gezielte Auswahl nativer Frameworks (iOS, Swift, ARKit, Vision) zur Vermeidung von Latenz- und Kompatibilitätsproblemen.
+* **Architektur-Vorgaben:** Festlegung modularer Architekturmuster (z. B. MVVM, lose Kopplung über Protocols), um Code-Regressionen von vornherein auszuschließen.
+
+---
+
+### 2. Orchestrierung & Task Decomposition
+Große Aufgaben führen bei Sprachmodellen zwangsläufig zu Halluzinationen. Die Umsetzung basierte daher auf einer strikten hierarchischen Zerlegung (*Divide & Conquer*):
+* **Hierarchische Dekomposition:** Zerlegung des Gesamtprodukts in Meilensteine, logische Sub-Module und atomare Einzel-Tasks.
+* **Metaprompting & Prompt Engineering:** Strukturierte Erstellung von Task-Prompts unter Einsatz von Metaprompting, um eindeutige Spezifikationen und Schnittstellenverträge (*Interface Contracts*) zu definieren.
+* **Human Architectural Review:** Jeder Dekompositionsschritt wurde vor der Ausführung menschlich validiert und freigegeben.
+
+---
+
+### 3. Kontext-Isolierung & Context Engineering
+KI-Modelle scheitern meist an einem überladenen oder unstrukturierten Kontext (*Lost in the Middle*). 
+* **Minimierung des Token-Rauschens:** Für jeden Task wurden ausschließlich die zwingend erforderlichen Schnittstellen, Schemata und Typdefinitionen geladen.
+* **Deterministisches Kontextmanagement:** Vermeidung von Kontextdrift durch gezielte Isolation der Arbeitsbereiche – ein Agent für die UI erhielt keinen Zugriff auf irrelevante AR-Shader-Interna und umgekehrt.
+* **Vorausgewählte Referenzdaten:** Bereitstellung präziser Dokumentationsauszüge und Best Practices anstelle unstrukturierter Gesamtdokumentationen.
+
+---
+
+### 4. Guardrails & System Skills (Execution Bounds)
+Um verlässliche Ergebnisse sicherzustellen, agierten die Agenten innerhalb strikt definierter Leitplanken (*Guardrails*):
+* **Modularisierte Skill-Bibliotheken:** Vordefinierte Regelwerke, Verhaltensmuster und Codierungsstandards (z. B. via `.cursorrules` und modellspezifische Systemanweisungen).
+* **Restriktive Coding-Vorgaben:** Feste Regeln für asynchrone Programmierung (Swift Concurrency), Speichermanagement und Exception-Handling.
+* **Deterministische Constraints:** Klare Verbotszonen (z. B. *„Keine Deprecated APIs verwenden“*, *„Keine Modifikation globaler States ohne explizites Interface“*).
+
+---
+
+### 5. Multi-Agent Verification & Human-in-the-Loop Review
+Die Validierung erfolgte über ein mehrstufiges Prüfverfahren nach dem 4-Augen-Prinzip (*Critic Pattern*):
+* **Automatisierte Agenten-Reviews (Critic Agent):** Nach Abschluss eines Tasks analysierte ein separater Reviewer-Agent das Ergebnis auf Linter-Konformität, Architektureinhaltung und potenzielle Regressionen.
+* **Deterministic Quality Gates:** Automatisierte Syntax- und Build-Checks vor der Integration in die Hauptcodebasis.
+* **Human-in-the-Loop (Finale Abnahme):** Letztinstanzliche Prüfung von Codequalität, UX-Performance auf realer Hardware und Freigabe jedes Meilensteins durch den Menschen.

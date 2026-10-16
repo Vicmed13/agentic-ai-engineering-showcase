@@ -36,7 +36,7 @@ Context Management via Skills, MCP & Daten Aufbereitung
 In diesem Repository finden sich unbedenkliche, bereinigte Auszüge der Systemarchitektur:
 In diesem Repository finden sich unbedenkliche, bereinigte Auszüge der Systemarchitektur:
 
-1. **`snippets/AR_FaceTracking_Pipeline.swift`**:  
+1. **`snippets/ARFaceTrackingPipeline.swift`**:  
    Beispielhafte Implementierung der asynchronen Frame-Verarbeitung und Shader-Anbindung.
 2. **`snippets/QualityGate_Validation.swift`**:  
    Muster für automatisierte Validierungsschritte innerhalb der Agent-Ausführung.

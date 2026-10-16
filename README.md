@@ -2,7 +2,7 @@
 
 > **Case Study & Architekturdokumentation:** Wie moderne Multi-Agenten-Workflows, deterministisches Kontextmanagement und strikte Quality Gates die Time-to-Market komplexer Softwareprodukte um das 5- bis 10-fache beschleunigen.
 
-[![Website](https://img.shields.io/badge/Web-UR_Artist:AR:Makeup:Studio-blue?style=flat&logo=safari)](https://urartist.app/)
+[![Website](https://img.shields.io/badge/Web-UR_Artist:_AR_Makeup_Studio-blue?style=flat&logo=safari)](https://urartist.app/)
 [![Platform](https://img.shields.io/badge/Platform-iOS-orange?style=flat)](#)
 [![Methodology](https://img.shields.io/badge/Methodology-Agentic_AI_Engineering-purple?style=flat)](#)
 

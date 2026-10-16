@@ -28,7 +28,9 @@ Anhand meines Referenzprojekts **UR Artist: AR Makeup Studio** (vollwertige nati
 ## 🧠 Kernprinzipien des angewandten Agentic AI Engineering
 
 1.Task Decomposition & Kontext-Isolierung: Die Architektur steht als Ziel im Mittelpunkt. Um sie herum werden verschiedene Zwischenziele bestehend aus Tasks und Schritte definiert, die einzeln nach einander an die KI-Agenten übergeben werden.
+
 2.Guardrails & Quality Gates: KI-Agenten erhalten extrem beschränkten Zugriff und Handlungsmöglichkeiten. Sie haben klare Vorgaben und Kontrollmechanismen, die sie zwingen, sich an diese Vorgaben zu halten. Jeder Schritt, Task und Zwischenziel wird menschlich überprüft.
+
 3.Context Management via Skills, MCP & Daten Aufbereitung: Für jedes Zwischenziel werden maßgeschneiderte Skills mit zugehörigen Daten und MCPs ausgewählt. Agenten erhalten auf die Skills angepasste Prompts und wissen nur das, was sie wissen sollten.
 
 ## 📂 Enthaltene Code-Snippets & Architekturbeispiele

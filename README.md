@@ -18,6 +18,10 @@ Anhand meines Referenzprojekts **[UR Artist: AR Makeup Studio](https://apps.appl
 
 ## 📱 Spotlight-Projekt: UR Artist (AR Makeup Studio)
 
+<p align="center">
+  <img src="assets/tracing.gif" alt="UR Artist AR Real-Time Tracking Demo" width="650" />
+</p>
+
 *UR Artist* ist eine native iOS-Anwendung mit komplexen Computer-Vision- und Augmented-Reality-Pipelines in Echtzeit. Das gesamte Produkt wurde von mir als **Solo-Engineer** durch den gezielten Einsatz strukturierter Agentic-Engineering-Pipelines von der ersten Konzeptskizze bis zum erfolgreichen App-Store-Release realisiert.
 
 * **Live im App Store:** [UR Artist im App Store ansehen](https://apps.apple.com/us/app/ur-artist-ar-makeup-studio/id6796494161)

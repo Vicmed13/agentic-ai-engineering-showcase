@@ -37,9 +37,9 @@ In diesem Repository finden sich bereinigte Auszüge der Systemarchitektur:
 
 1. **`snippets/ARFaceTrackingPipeline.swift`**:  
    Beispielhafte Architektur für hochperformante AR-Gesichtserfassung und Bildbereichsprojektion bei 60 Bildern pro Sekunde
-2. **`snippets/QualityGate_Validation.swift`**:  
+2. **`snippets/QualityGate_Validation.md`**:  
    Muster für automatisierte Validierungsschritte innerhalb der Agent-Ausführung.
-3. **`snippets/skills_prompts.swift`**:
+3. **`snippets/skills_prompts.md`**:
    Beispiele für Skills und Prompts
 
 ## 💼 Was ich für Unternehmen umsetze
